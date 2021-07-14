@@ -26,15 +26,23 @@ email.search('olmayan') // -1
 
 // belli bir yere kadar al -> slice :  (domain bilgisi)
 let DOMAIN = email.slice( email.search("@") + 1)
-console.log(DOMAIN)
 
+console.log(DOMAIN)
+console.log(DOMAIN.slice(DOMAIN,DOMAIN.indexOf(".")))
+
+
+//indexOf('.') . görene kadar göster
 console.log(
     DOMAIN.slice(0, DOMAIN.indexOf('.') )  // sadece gmail kismini aldik
 )
 
 // bilgiyi degistir -> replace :
-email = email.replace('gmail.com', 'kodluyoruz.org')
+
+email=email.replace("hakanyalcinkaya@gmail.com","salih_yil@live.com")
 console.log(email)
+
+// email = email.replace('gmail.com', 'kodluyoruz.org')
+// console.log(email)
 
 // istedigim bilgi var mi ? -> includes :
 email.includes('dkfhsd') // false

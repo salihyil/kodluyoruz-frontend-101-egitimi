@@ -2,6 +2,7 @@
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/forEach
 // https://www.w3schools.com/jsref/jsref_foreach.asp
 
+/*
 const PRODUCTS = ["Laptop", "Phone", "Speaker", "Desktop PC", "Server", "Mouse", "Keyboard"]
 
 // PRODUCTS.forEach((product, index, array) => array[index] = product + " 111" )
@@ -17,7 +18,6 @@ for (index = 0; index < users.length; index++) {
   liDOM.innerHTML = users[index]
   userListDOM.appendChild(liDOM)
 }
-*/
 
 const userListDOM = document.querySelector('#userList')
 
@@ -26,3 +26,22 @@ PRODUCTS.forEach( item => {
   liDOM.innerHTML = item
   userListDOM.append(liDOM)
 })
+*/
+
+const PRODUCTS = ["Laptop", "Phone", "Speaker", "Desktop PC", "Server", "Mouse", ["sa",2,3]]
+
+PRODUCTS.forEach((product,index) => {
+  console.log(product, index);
+}); 
+PRODUCTS.forEach()
+
+
+let userListDOM = document.querySelector("#userList")
+
+PRODUCTS.forEach(item => {
+  const liDOM = document.createElement("li");
+  liDOM.innerHTML = item;
+  userListDOM.appendChild(liDOM);
+
+})
+

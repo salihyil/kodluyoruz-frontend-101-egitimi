@@ -16,3 +16,19 @@ let item3 = {}
 let item4 = new Object()
 
 console.log("object1", object1)
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Object.create()
+
+const person ={
+    isHuman: false,
+    printIntroduction: function () {
+        console.log(`My name is ${this.name}. Am I human? ${this.isHuman} `) ; // çıktısı My name is saih. Am I human? true 
+    }
+}
+
+const me = Object.create(person);
+me.name = "salih";
+me.isHuman = true;
+
+me.printIntroduction(); 

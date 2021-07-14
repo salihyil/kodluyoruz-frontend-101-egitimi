@@ -8,9 +8,17 @@
 //   counter ++
 // }
 
-let userName = ""
+// let userName = ""
 
-while (!userName) {
+// while (!userName) {
+//   userName = prompt("Kullanici Adini Giriniz: ")
+//   console.log(userName)
+// }
+
+let userName = "";
+
+//while birşey olana kadar devam et .
+while (!userName) { 
   userName = prompt("Kullanici Adini Giriniz: ")
-  console.log(userName)
+  console.log(userName);
 }

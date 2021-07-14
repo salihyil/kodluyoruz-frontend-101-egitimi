@@ -10,3 +10,5 @@ greeting.classList.add("new-info", "second-class", "third-class") // birden fazl
 greeting.classList.remove("title", "second-class", "third-class") // birden fazla class silmek
 
 console.log(greeting.classList)
+
+greeting.classList.item(0);

@@ -13,3 +13,4 @@ console.log(localStorageEMailInfo)
 
 // localStorage icerisinden istenilen Key bilgisinin silinmesi:
 localStorage.removeItem('userEmail') // key bilgisini yazarak silebiliriz..
+

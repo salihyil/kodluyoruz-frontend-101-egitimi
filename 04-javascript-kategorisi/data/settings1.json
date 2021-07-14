@@ -1,0 +1,22 @@
+[
+    {
+    
+    "userName": "fakeUser",
+    "password": 1234,
+    "serverIP": "127.0.0.1", 
+    "serverName": "kodluyoruz.org",
+    "isAuth": true,
+    "IDs": [1,2,3,4,5]
+    
+    },
+    {
+    
+        "userName": "realUser",
+        "password": 4321,
+        "serverIP": "127.0.0.2", 
+        "serverName": "salihyil.org",
+        "isAuth": false,
+        "IDs": [8,2,9,2,5]
+        
+        }
+]
